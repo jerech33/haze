@@ -27,7 +27,10 @@ Alternatively see [how to build the library yourself](https://github.com/mrdoob/
   character.assignSkeleton(character.skeleton);
   
   var animator = new HAZE.Animator(character);
-  animator.addAction('../myAnimation.bvh')
+  var walk_action = new HAZE.Action('../myAnimation.bvh');
+  animator.addAction(walk_action)
+  
+  walk_action.play();
   
 </script>
 ```
