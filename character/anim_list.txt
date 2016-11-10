@@ -1,0 +1,183 @@
+ idle_1 - idle   
+ idle_6 - idle  rifle 
+ idle_7 - idle  rifle aim
+ idle_8 - idle  rifle shoot
+ idle_9 - idle  rifle cut
+ idle_10 - idle  rifle throw
+ idle_11 - idle  gun 
+ idle_12 - idle  gun aim
+ idle_13 - idle  gun shoot
+ idle_14 - idle  gun cut
+ idle_15 - idle  gun throw
+ idle_16 - idle  cut 
+ idle_17 - idle  cut aim
+ idle_18 - idle  cut shoot
+ idle_19 - idle  cut cut
+ idle_20 - idle  cut throw
+ idle_21 - idle crouch  
+ idle_26 - idle crouch rifle 
+ idle_27 - idle crouch rifle aim
+ idle_28 - idle crouch rifle shoot
+ idle_29 - idle crouch rifle cut
+ idle_30 - idle crouch rifle throw
+ idle_31 - idle crouch gun 
+ idle_32 - idle crouch gun aim
+ idle_33 - idle crouch gun shoot
+ idle_34 - idle crouch gun cut
+ idle_35 - idle crouch gun throw
+ idle_36 - idle crouch cut 
+ idle_37 - idle crouch cut aim
+ idle_38 - idle crouch cut shoot
+ idle_39 - idle crouch cut cut
+ idle_40 - idle crouch cut throw
+ idle_41 - idle die 
+ 
+ walk_1 - walk front   
+ walk_6 - walk front  rifle 
+ walk_7 - walk front  rifle aim
+ walk_8 - walk front  rifle shoot
+ walk_9 - walk front  rifle cut
+ walk_10 - walk front  rifle throw
+ walk_11 - walk front  gun 
+ walk_12 - walk front  gun aim
+ walk_13 - walk front  gun shoot
+ walk_14 - walk front  gun cut
+ walk_15 - walk front  gun throw
+ walk_16 - walk front  cut 
+ walk_17 - walk front  cut aim
+ walk_18 - walk front  cut shoot
+ walk_19 - walk front  cut cut
+ walk_20 - walk front  cut throw
+ walk_21 - walk crouch  
+ walk_26 - walk crouch rifle 
+ walk_27 - walk crouch rifle aim
+ walk_28 - walk crouch rifle shoot
+ walk_29 - walk crouch rifle cut
+ walk_30 - walk crouch rifle throw
+ walk_31 - walk crouch gun 
+ walk_32 - walk crouch gun aim
+ walk_33 - walk crouch gun shoot
+ walk_34 - walk crouch gun cut
+ walk_35 - walk crouch gun throw
+ walk_36 - walk crouch cut 
+ walk_37 - walk crouch cut aim
+ walk_38 - walk crouch cut shoot
+ walk_39 - walk crouch cut cut
+ walk_40 - walk crouch cut throw
+ walk_41 - walk die 
+ walk_61 - walk back   
+ walk_66 - walk back  rifle 
+ walk_67 - walk back  rifle aim
+ walk_68 - walk back  rifle shoot
+ walk_69 - walk back  rifle cut
+ walk_70 - walk back  rifle throw
+ walk_71 - walk back  gun 
+ walk_72 - walk back  gun aim
+ walk_73 - walk back  gun shoot
+ walk_74 - walk back  gun cut
+ walk_75 - walk back  gun throw
+ walk_76 - walk back  cut 
+ walk_77 - walk back  cut aim
+ walk_78 - walk back  cut shoot
+ walk_79 - walk back  cut cut
+ walk_80 - walk back  cut throw
+ walk_121 - walk left   
+ walk_126 - walk left  rifle 
+ walk_127 - walk left  rifle aim
+ walk_128 - walk left  rifle shoot
+ walk_129 - walk left  rifle cut
+ walk_130 - walk left  rifle throw
+ walk_131 - walk left  gun 
+ walk_132 - walk left  gun aim
+ walk_133 - walk left  gun shoot
+ walk_134 - walk left  gun cut
+ walk_135 - walk left  gun throw
+ walk_136 - walk left  cut 
+ walk_137 - walk left  cut aim
+ walk_138 - walk left  cut shoot
+ walk_139 - walk left  cut cut
+ walk_140 - walk left  cut throw
+ walk_181 - walk right   
+ walk_186 - walk right  rifle 
+ walk_187 - walk right  rifle aim
+ walk_188 - walk right  rifle shoot
+ walk_189 - walk right  rifle cut
+ walk_190 - walk right  rifle throw
+ walk_191 - walk right  gun 
+ walk_192 - walk right  gun aim
+ walk_193 - walk right  gun shoot
+ walk_194 - walk right  gun cut
+ walk_195 - walk right  gun throw
+ walk_196 - walk right  cut 
+ walk_197 - walk right  cut aim
+ walk_198 - walk right  cut shoot
+ walk_199 - walk right  cut cut
+ walk_200 - walk right  cut throw
+ 
+ run_1 - run front   
+ run_6 - run front  rifle 
+ run_7 - run front  rifle aim
+ run_8 - run front  rifle shoot
+ run_9 - run front  rifle cut
+ run_10 - run front  rifle throw
+ run_11 - run front  gun 
+ run_12 - run front  gun aim
+ run_13 - run front  gun shoot
+ run_14 - run front  gun cut
+ run_15 - run front  gun throw
+ run_16 - run front  cut 
+ run_17 - run front  cut aim
+ run_18 - run front  cut shoot
+ run_19 - run front  cut cut
+ run_20 - run front  cut throw
+ run_21 - run crouch  
+ run_26 - run crouch rifle 
+ run_27 - run crouch rifle aim
+ run_28 - run crouch rifle shoot
+ run_29 - run crouch rifle cut
+ run_30 - run crouch rifle throw
+ run_31 - run crouch gun 
+ run_32 - run crouch gun aim
+ run_33 - run crouch gun shoot
+ run_34 - run crouch gun cut
+ run_35 - run crouch gun throw
+ run_36 - run crouch cut 
+ run_37 - run crouch cut aim
+ run_38 - run crouch cut shoot
+ run_39 - run crouch cut cut
+ run_40 - run crouch cut throw
+ run_41 - run die 
+_________________________________ DELETED
+
+ run_121 - run left   
+ run_126 - run left  rifle 
+ run_127 - run left  rifle aim
+ run_128 - run left  rifle shoot
+ run_129 - run left  rifle cut
+ run_130 - run left  rifle throw
+ run_131 - run left  gun 
+ run_132 - run left  gun aim
+ run_133 - run left  gun shoot
+ run_134 - run left  gun cut
+ run_135 - run left  gun throw
+ run_136 - run left  cut 
+ run_137 - run left  cut aim
+ run_138 - run left  cut shoot
+ run_139 - run left  cut cut
+ run_140 - run left  cut throw
+ run_181 - run right   
+ run_186 - run right  rifle 
+ run_187 - run right  rifle aim
+ run_188 - run right  rifle shoot
+ run_189 - run right  rifle cut
+ run_190 - run right  rifle throw
+ run_191 - run right  gun 
+ run_192 - run right  gun aim
+ run_193 - run right  gun shoot
+ run_194 - run right  gun cut
+ run_195 - run right  gun throw
+ run_196 - run right  cut 
+ run_197 - run right  cut aim
+ run_198 - run right  cut shoot
+ run_199 - run right  cut cut
+ run_200 - run right  cut throw
