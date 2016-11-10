@@ -1,11 +1,6 @@
 # Haze engine
-- Let's create a video game
+Let's create a video game
 ========
-
-[![Latest NPM release][npm-badge]][npm-badge-url]
-[![License][license-badge]][license-badge-url]
-[![Dependencies][dependencies-badge]][dependencies-badge-url]
-[![Dev Dependencies][devDependencies-badge]][devDependencies-badge-url]
 
 #### GAME ENGINE FOR THREE.JS ####
 
@@ -24,9 +19,13 @@ Alternatively see [how to build the library yourself](https://github.com/mrdoob/
 ```
 
 
+[![Latest NPM release][npm-badge]][npm-badge-url]
+[![License][license-badge]][license-badge-url]
+
 ### Change log ###
 
 [releases](https://github.com/mrdoob/three.js/releases)
+
 
 
 
