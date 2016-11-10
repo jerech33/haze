@@ -62,7 +62,7 @@ var HAZE_anim = {
             for ( bvh in list) {
 
                 scope.loadBVH(list[bvh], function() {
-
+                    
                     count++;
                     if (count == list.length) {
 
@@ -78,7 +78,7 @@ var HAZE_anim = {
     loadBVH: function(name, callback) {
 
         var scope = this;
-
+        
         scope.loader.load(scope.root + '/' + name + '.bvh', function(bvh) {
 
             var clip = bvh.clip;
@@ -118,10 +118,10 @@ var HAZE_anim = {
     weight: function(event) {
 
         var scope = this;
-
         var data = event.detail;
+        
         for (var i = 0; i < data.anims.length; ++i) {
-
+            
             scope.animations.clipAction(data.anims[i]).setEffectiveWeight(data.weights[i]);
         }
     },
@@ -135,7 +135,6 @@ var HAZE_anim = {
             })
             .easing(TWEEN.Easing.Quartic.InOut)
             .start();
-
     },
 
     isUpdatingAnim: false,
@@ -165,7 +164,6 @@ var HAZE_anim = {
                     detail: {
                         anims: [name, scope.current_anim],
                         weights: [this.f, this.t]
-
                     }
                 });
             })
@@ -173,7 +171,6 @@ var HAZE_anim = {
                 scope.delay = 0;
                 scope.current_anim = name;
                 scope.isUpdatingAnim = false;
-
             })
             .easing(TWEEN.Easing.Quartic.InOut)
             .delay(scope.delay)
@@ -253,14 +250,11 @@ var HAZE_anim = {
         drive : function(){
             HAZE_anim.playOnce('drive',500);
         }
-        
-        
     },
 
     initControls: function() {
 
         var scope = this;
-        
         var ctrl = scope.controller;
 
         document.addEventListener('keydown', function(ev) {
@@ -390,7 +384,6 @@ var HAZE_anim = {
     update: function() {
 
         var scope = this;
-
         var delta = clock.getDelta();
 
         var move = scope.move.speed * delta;
@@ -401,6 +394,5 @@ var HAZE_anim = {
         HAZE_anim.character.update();
 
         TWEEN.update();
-        
     }
 }
