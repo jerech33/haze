@@ -1,6 +1,5 @@
 # Haze engine
 Let's create a video game
-========
 
 #### GAME ENGINE FOR THREE.JS ####
 
