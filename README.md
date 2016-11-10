@@ -9,7 +9,7 @@ The aim of the project is to create an easy to use, lightweight, 3D library. The
 
 [Documentation](http://threejs.org/docs/)
 
-### Usage ###
+### USAGE ###
 
 Download the [minified library](http://threejs.org/build/three.min.js) and include it in your html.
 Alternatively see [how to build the library yourself](https://github.com/mrdoob/three.js/wiki/Build-instructions).
