@@ -5,8 +5,8 @@ Let's create a video game
 
 The aim of the project is to create an easy to use, lightweight, 3D library. The library provides &lt;canvas&gt;, &lt;svg&gt;, CSS3D and WebGL renderers.
 
-[Demo](http://threejs.org/examples/) &mdash;
-[Documentation](http://threejs.org/docs/) &mdash;
+[Demo](http://threejs.org/examples/)
+[Documentation](http://threejs.org/docs/)
 
 ### Usage ###
 
@@ -15,6 +15,21 @@ Alternatively see [how to build the library yourself](https://github.com/mrdoob/
 
 ```html
 <script src="js/three.min.js"></script>
+<script src="js/haze.min.js"></script>
+```
+```javascript
+<script>
+
+  var character = new HAZE.Character('../myCharacter.bvh');
+  var skin = THREE.SkinnedMesh( geometry, material );
+  
+  character.applySkin(skin,true);
+  character.assignSkeleton(character.skeleton);
+  
+  var animator = new HAZE.Animator(character);
+  animator.addAction('../myAnimation.bvh')
+  
+</script>
 ```
 
 
