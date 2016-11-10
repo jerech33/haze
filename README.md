@@ -3,7 +3,7 @@ Let's create a video game
 
 #### GAME ENGINE FOR THREE.JS ####
 
-The aim of the project is to create an easy to use, lightweight, 3D library. The library provides &lt;canvas&gt;, &lt;svg&gt;, CSS3D and WebGL renderers.
+Project coming soon.
 
 [Demo](http://threejs.org/examples/)
 
