@@ -1,4 +1,5 @@
-# HAZE ENGINE
+# Haze engine
+- Let's create a video game
 ========
 
 [![Latest NPM release][npm-badge]][npm-badge-url]
