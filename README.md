@@ -24,7 +24,7 @@ Alternatively see [how to build the library yourself](https://github.com/mrdoob/
   var skin = THREE.SkinnedMesh( geometry, material );
   
   character.applySkin(skin,true);
-  character.assignSkeleton(character.skeleton);
+  character.assignSkeleton(skin.skeleton);
   
   var animator = new HAZE.Animator(character);
   var walk_action = new HAZE.Action('../myAnimation.bvh');
