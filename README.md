@@ -22,8 +22,9 @@ Alternatively see [how to build the library yourself](https://github.com/mrdoob/
 <script>
 
   var character = new HAZE.Character('../myCharacter.bvh');
-  var skin = THREE.SkinnedMesh( geometry, material );
+  scene.add(character);
   
+  var skin = THREE.SkinnedMesh( geometry, material );
   character.applySkin(skin,true);
   character.assignSkeleton(skin.skeleton);
   
